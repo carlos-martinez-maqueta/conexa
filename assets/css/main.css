@@ -1,0 +1,276 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+p{
+    font-weight: 200;
+}
+body .nav_fondo_new{
+    background-color: #000000 !important;
+}
+body .nav_fondo_new a{
+    color: #ffffff;
+    font-size: 16px;
+}
+body .nav_fondo_new button{
+    color: #ffffff;
+}
+body .nav_fondo_new ul li .active{
+    color: #e4b23a !important;
+}
+body .nav_fondo_new ul li a:hover{
+    color: #f2f2f2;
+}
+.login_a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.login_a_contacto{
+    color: #ffffff;
+    border-right: 1px solid #ffffff; 
+    text-decoration: none;
+    padding: 5px 20px; 
+}
+/**/
+.container_barra{
+    background-color: #ffffff;
+    padding: 12px 0px;		
+}
+.container_barra a{
+	text-decoration: none;
+
+}
+.container_barra .col_numero a{
+	color: #000000;
+	font-weight: 300;
+	font-size: 20px;
+}
+.container_barra .col_button_form a{
+    color: #ffffff;
+    background-color: #e4b23a;
+    padding: 10px 30px;
+    float: right;	
+}
+
+/**/
+.section_main{
+	background-color: #f2f2f2;
+}
+.col_3_fondo{
+    background-color: #ffffff;
+}
+.container_tabs h1{
+	font-size: 30px;
+}
+.container_tabs .descrip_plan p{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: normal;
+}
+.container_tabs .descrip_plan span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+.container_tabs .descrip_plan ul {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.container_tabs .descrip_plan ul li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container_tabs .descrip_plan .a_obtner{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #e4b23a;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+.hover_plan:hover{
+    transform: translateY(-20px);
+}
+
+
+/**/
+.ul_opciones{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+.ul_opciones li{
+    padding: 20px 10px;
+    cursor: pointer;
+    width: 20%;
+}
+.ul_opciones .active .div-b{
+    border: 2px solid #e4b23a;
+}
+.ul_opciones li .div-b{
+    border-radius: 5px; 
+    border: 2px solid #000000ad;
+    padding: 10px;
+}
+.ul_opciones li .div-b:hover{
+    border: 2px solid #e4b23a;
+}
+.ul_opciones li .div-b img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+.ul_opciones li .div-b p{
+    margin: 0px;
+}
+
+/**/
+
+/*form button{
+    background-color: #e4b23a !important;
+    border-color: #e4b23a !important;
+    font-size: 18px !important;
+}*/
+.alto_img{
+    height: 50px;
+}
+#miFormulario button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: white;
+  background-color: #171717;
+  padding: 1em 2em;
+  border: none;
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  width: auto;
+  margin: auto;
+  font-size: 15px;
+}
+
+#miFormulario button span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  background-color: #e4b23a;
+  border-radius: 50%;
+  transition: .6s ease;
+}
+
+#miFormulario button span:nth-child(6) {
+  position: relative;
+}
+
+#miFormulario button span:nth-child(1) {
+  transform: translate(-3.3em, -4em);
+}
+
+#miFormulario button span:nth-child(2) {
+  transform: translate(-6em, 1.3em);
+}
+
+#miFormulario button span:nth-child(3) {
+  transform: translate(-.2em, 1.8em);
+}
+
+#miFormulario button span:nth-child(4) {
+  transform: translate(3.5em, 1.4em);
+}
+
+#miFormulario button span:nth-child(5) {
+  transform: translate(3.5em, -3.8em);
+}
+
+#miFormulario button:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
+}
+
+
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000aa;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+  text-align: center;
+  display: flex;
+}
+.naranja{
+  color: #f67b04 !important
+}
+
+
+.footer_home{
+    background-color: #000000;
+}
+.footer_home p{
+    font-size: 13px;
+    margin: 0px;
+    color: #ffffff;
+}
+
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+    .container_barra .col_numero a{
+        font-size: 15px;
+    }
+    .container_barra .col_button_form a{
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .container_tabs h1{
+        font-size: 22px;
+    }
+    .container_tabs .descrip_plan p{
+        font-size: 16px;
+    }
+    .container_tabs .descrip_plan span{
+        font-size: 13px;
+    }
+    .container_tabs .descrip_plan ul{
+        margin-top: 25px;
+        margin-bottom: 20px;
+        padding: 0px 0px 0px 10px;
+    }
+    .container_tabs .descrip_plan ul li{
+        font-size: 12px;
+    }
+    .container_tabs .descrip_plan .a_obtner{
+        font-size: 13px;
+    }
+    .hover_plan {
+        margin-bottom: 20px;
+    }
+    .section_elegir_opcion {
+        overflow-x: scroll;
+    }
+    .ul_opciones li{
+        width: auto;
+        padding: 0px 10px;
+    }
+    .alto_img{
+        height: 40px;
+    }
+    .alto_img svg{
+        width: 25px;
+    }
+    .ul_opciones li .div-b p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
